@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/emabello42/Projects/web_uav_planner'
+let g:netrw_dirhist_2='/home/emabello42/Projects'
+let g:netrw_dirhist_3='/home/emabello42/Projects/web_uav_planner'
