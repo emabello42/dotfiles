@@ -64,8 +64,8 @@ set noswapfile
 let mapleader = ","
 
 " NERDtree
-" map <Leader>n :NERDTreeToggle<CR>
-" map <C-n> :NERDTreeToggle<CR>
+map <Leader>n :NERDTreeToggle<CR>
+map <C-n> :NERDTreeToggle<CR>
 
 " Quick quit
 nnoremap <Leader>q :q<CR>
@@ -90,15 +90,15 @@ let g:gitgutter_map_keys = 0 " disable default key mapping
 let g:gitgutter_max_signs = 400
 
 " NERDtree
-" let NERDTreeIgnore = ['\.pyc$']
+let NERDTreeIgnore = ['\.pyc$']
 
 " Use netrw instead of NERDtree. Here it is the configuration:
-let g:netrw_banner = 0
-let g:netrw_liststyle = 3
-let g:netrw_browse_split = 4
-let g:netrw_altv = 1
-let g:netrw_winsize = 20
-augroup ProjectDrawer
-  autocmd!
-  autocmd VimEnter * :Vexplore
-augroup END
+" let g:netrw_banner = 0
+" let g:netrw_liststyle = 3
+" let g:netrw_browse_split = 4
+" let g:netrw_altv = 1
+" let g:netrw_winsize = 20
+" augroup ProjectDrawer
+"   autocmd!
+"   autocmd VimEnter * :Vexplore
+" augroup END
